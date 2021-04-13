@@ -150,24 +150,10 @@ input:focus:-ms-input-placeholder      {text-indent: 500px; transition: text-ind
    height: 50vh;
 }
 
-.chat__sidebar {
-   width: 30%;
-   height: auto;
-   background: rgb(122, 152, 222);
-   text-align: center;
-   padding: 15px;
-}
-
-.users__text {
-   text-transform: uppercase;
-   color: #fff;
-   font-size: 18px;
-}
-
 
 .message__inner {
    background: rgb(216, 225, 244);
-   width: 60vh;
+   width: 100%;
    height: auto;
    padding: 15px;
    overflow-y: scroll;
@@ -210,8 +196,12 @@ input:focus:-ms-input-placeholder      {text-indent: 500px; transition: text-ind
 
 .meta {
 	font-size: 15px;
-	font-weight: bold;
-	color: var(--dark-color-b);
-	opacity: 0.7;
-	margin-bottom: 7px;
+	font-weight: 700;
+	color: rgb(216, 225, 244);
+	margin-bottom: 10px;
+}
+
+.meta span {
+	color: rgb(28, 82, 198);
+
 }

@@ -21,28 +21,9 @@
    <div class="content">
       <div class="container">
          <div class="content__inner">
-            <div class="chat__sidebar">
-               <div class="users__text">Users</div>
-               <ul id="users"></ul>
-            </div>
 
             <div class="message__inner">
-               <div class="chat__messages">
-                  <div class="message">
-                     <p class="meta">Brad <span>9:12pm</span></p>
-                     <p class="text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi,
-                        repudiandae.
-                     </p>
-                  </div>
-               </div>
-               <div class="chat__messages">
-                  <div class="message">
-                     <p class="meta">Brad <span>9:12pm</span></p>
-                     <p class="text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi,
-                        repudiandae.
-                     </p>
+               <div class="chat__messages"></div>
                   </div>
                </div>
             </div>
@@ -63,6 +44,8 @@
         <button class="btn__message"><i class="fas fa-paper-plane"></i> Send</button>
       </form>
     </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.10.1/qs.min.js"></script>
     <script src="/socket.io/socket.io.js"></script>
     <script src="js/script.js"></script>
 </body>
